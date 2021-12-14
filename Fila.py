@@ -28,7 +28,7 @@ class Fila:
 		else:
 			aux = self.inicio
 			while ( aux ) :
-				texto = texto + str(aux.titulo ) + str( aux.autor.nome) + "  -  "
+				texto = texto + str(aux.titulo ) + " " + "Autor: " + str( aux.autor.nome) + "  -  "
 				aux = aux.proximo
 		print( texto )
 		print(" ---------------------------------------------------")
